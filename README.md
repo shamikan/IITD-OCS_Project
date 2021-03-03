@@ -7,3 +7,4 @@ This is a sample project created for IITD OCS. It is a simple Github Organisatio
 [X] Visit http://127.0.0.1:8000/ on your Chrome web browser.
 
 This is a repository just for the backend work demonstration and not frontend, hence, the simpleton html code. 
+Some problem with the requirement.txt, extra modules/packages might get installed.
