@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+    <form method="POST", action="index/"> <!--------------------------------------------form------------------------------------------>
+    {% csrf_token %}
+        
+  
+        
+        <p>Github Organisation Explorer</p>
+        
+        <select name="Organisation" name="Organisation" required="required">
+            <option value="" disabled selected>Organisation</option>
+            <option value="0">Google</option>
+            <option value="1">Microsoft</option>
+            <option value="2">Facebook</option>
+        </select>
+        <br><br>
+        <input type = number min="0" placeholder = "N" required="required"> <br><br>
+        <input type = number min="0" placeholder = "M" required="required">
+        
+   
+        
+        <button type="submit" class="btn1">Fetch</button>
+
+        {% list1 %}
+        {% list2 %}
+        {% list3 %}
+
+
+</body>
+</html>
